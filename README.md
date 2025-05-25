@@ -1,7 +1,16 @@
-## Hi there 👋
-
-Minwoo Kim
-KNU CSE
+# Hello, I'm Minwoo Kim !
+- 🔭 I’m currently working on **High Performance Computing Lab. at KNU as undergraduate intern**
+- 🌱 I’m currently learning **CSE at KNU**
+<!--
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ... 
+- 💬 Ask me about ...
+-->
+- 📫 How to reach me: gentleman at knu.ac.kr/kakao.com
+<!--
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
 
 
 <!--
