@@ -1,6 +1,8 @@
 # Hello, I'm Minwoo Kim !
-- 🔭 I’m currently working on **High Performance Computing Lab. at KNU as undergraduate intern**
 - 🌱 I’m currently learning **CSE at KNU**
+- 🔭 I worked on...
+  - **High Performance Computing Lab. at KNU as undergraduate intern**
+  - **Kakao Tech Campus 3rd Generation as Back-End Engineer**
 <!--
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ... 
