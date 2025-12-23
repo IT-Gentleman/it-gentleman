@@ -102,17 +102,17 @@
     - 권장 폰트 다운로드
        1. 폰트 다운로드
            ```bash
-           mkdir -p ~/.local/share/fonts
-           cd ~/.local/share/fonts
-           wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
-           wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
-           wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
-           wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
+           mkdir -p ~/Downloads/meslo
+           cd ~/Downloads/meslo
+            
+           curl -LO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf"
+           curl -LO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf"
+           curl -LO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf"
+           curl -LO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf"
+            
+           mv *.ttf ~/Library/Fonts/
            ```
-       2. 폰트 캐시 갱신
-           ```bash
-           fc-cache -f -v
-           ```
+       2. 터미널 폰트 변경 (MesloLGS)
 4. 설정파일 적용: .zshrc (`nano .zshrc`)
    ```bash
    ZSH_THEME="powerlevel10k/powerlevel10k"
