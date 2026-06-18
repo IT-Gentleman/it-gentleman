@@ -45,7 +45,9 @@ jobs:
             fi
           }
 
-          fetch "https://mazassumnida.wtf/api/v2/generate_badge?boj=gentleman" assets/solvedac.svg
+          # solved.ac badge is intentionally NOT refreshed — the upstream
+          # scoring page is gone, so assets/solvedac.svg is kept frozen as a
+          # permanent archival snapshot.
           fetch "https://streak-stats.demolab.com/?user=IT-Gentleman&hide_border=true" assets/streak.svg
           fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=IT-Gentleman&layout=compact&hide_border=true&langs_count=8" assets/top-langs.svg
 
