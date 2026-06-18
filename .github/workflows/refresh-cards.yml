@@ -1,0 +1,63 @@
+name: Refresh profile cards
+
+# Fetches the profile badge/stat SVGs once a day and commits them into
+# assets/ so the README serves them as static files from GitHub's own host.
+# This avoids slow third-party hosts timing out behind GitHub's image proxy
+# (camo), and means visitors make zero third-party requests when viewing the
+# profile.
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at 00:00 UTC
+  workflow_dispatch: {} # allow manual run from the Actions tab
+  push:
+    branches: [main]
+    paths: [".github/workflows/refresh-cards.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-cards
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch SVG cards
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+
+          fetch() {
+            # $1 = url, $2 = output path
+            tmp="$(mktemp)"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 90 "$1" -o "$tmp" \
+               && [ -s "$tmp" ] && grep -qi "<svg" "$tmp"; then
+              mv "$tmp" "$2"
+              echo "ok: $2 ($(wc -c < "$2") bytes)"
+            else
+              rm -f "$tmp"
+              echo "skip: $2 (fetch failed or not an SVG, keeping existing copy)"
+            fi
+          }
+
+          fetch "https://mazassumnida.wtf/api/v2/generate_badge?boj=gentleman" assets/solvedac.svg
+          fetch "https://streak-stats.demolab.com/?user=IT-Gentleman&hide_border=true" assets/streak.svg
+          fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=IT-Gentleman&layout=compact&hide_border=true&langs_count=8" assets/top-langs.svg
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh profile cards [skip ci]"
+            git push
+          fi
