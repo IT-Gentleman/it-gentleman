@@ -1,9 +1,9 @@
 # Hello, I'm Minwoo Kim 👋
 
-CS 전공 학부생이자 AI 개발자를 지향합니다.
+> ### CS 전공 학부생이자, 다양한 기술을 활용하는 인프라 개발자를 지향합니다.
 
 ## 🌱 Currently Learning
-- **CSE** at **Kyungpook National University** (경북대학교)
+- **CSE** at **Kyungpook National University** (KNU, 경북대학교)
 - **AI Developer Track** — KT AIVLE School (9th Gen)
 
 ## 💼 Experience
@@ -21,13 +21,14 @@ CS 전공 학부생이자 AI 개발자를 지향합니다.
   - 논문: [DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12042229) ([PDF](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12042229))
   - 한국정보과학회 **2024 한국소프트웨어종합학술대회(KSC 2024)** 학부생 부문 투고 — **학부생 부문 우수상 수상** 🏆
 
+## 📊 GitHub
+<p align="left">
+  <a href="https://github.com/IT-Gentleman"><img height="170" src="./assets/streak.svg" alt="GitHub Streak" /></a>
+  <a href="https://github.com/IT-Gentleman"><img height="170" src="./assets/top-langs.svg" alt="Top Langs" /></a>
+</p>
+
 ## 🧩 Problem Solving
 [![solved.ac](./assets/solvedac.svg)](https://solved.ac/profile/gentleman)
-
-## 📊 GitHub
-[![GitHub Streak](./assets/streak.svg)](https://github.com/IT-Gentleman)
-
-[![Top Langs](./assets/top-langs.svg)](https://github.com/IT-Gentleman)
 
 ## 📫 Reach Me
 - gentleman at kakao.com
