@@ -25,7 +25,7 @@ CS 전공 학부생이자 AI 개발자를 지향합니다.
 [![solved.ac](https://mazassumnida.wtf/api/v2/generate_badge?boj=gentleman)](https://solved.ac/profile/gentleman)
 
 ## 📊 GitHub
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=IT-Gentleman&hide_border=true)](https://github.com/IT-Gentleman)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=IT-Gentleman&hide_border=true)](https://github.com/IT-Gentleman)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IT-Gentleman&layout=compact&hide_border=true&langs_count=8)](https://github.com/IT-Gentleman)
 
