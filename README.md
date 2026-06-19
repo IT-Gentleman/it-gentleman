@@ -49,7 +49,7 @@
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
     </td>
     <td valign="top">
-      <strong>Infra / DevOps</strong><br/>
+      <strong>Cloud / Infra</strong><br/>
       <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS" />
       <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square" alt="Oracle Cloud" />
       <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
