@@ -2,13 +2,15 @@
 
 > ### CS 전공 학부생이자, 다양한 기술을 활용하는 인프라 개발자를 지향합니다.
 
-## 🌱 Currently Learning
+## 🌱 Education
 - **CSE** at **Kyungpook National University** (KNU, 경북대학교)
-- **AI Developer Track** — KT AIVLE School (9th Gen)
+- **AI Developer** Track — [KT AIVLE School](https://aivle.kt.co.kr/) (9th Gen)
+  - Final Project: Worked as **Back-end, Infra, AI/Data Engineer** - [WindLabs](https://github.com/kt-aivle-9th-ai-tk8/bigproject-team22)
+- **Back-End Engineer** Track — [Kakao Tech Campus](https://www.kakaotechcampus.com/) (3rd Gen)
+  - Final Project: IceBreaker[(BE Github](https://github.com/kakao-tech-campus-3rd-step3/Team6_BE)
 
 ## 💼 Experience
-- High Performance Computing Lab. — Undergraduate Intern
-- Kakao Tech Campus 3rd Gen — Back-End Engineer · [Team6_BE](https://github.com/kakao-tech-campus-3rd-step3/Team6_BE)
+- Undergraduate Intern — High Performance Computing Lab. at **Kyungpook National University** (KNU, 경북대학교)
 
 ## 🛠 Tech Stack
 
