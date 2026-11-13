@@ -5,9 +5,9 @@
 ## 🌱 Education
 - **CSE** at **Kyungpook National University** (KNU, 경북대학교)
 - **AI Developer** Track — [KT AIVLE School](https://aivle.kt.co.kr/) (9th Gen)
-  - Final Project: Worked as **Back-end, Infra, AI/Data Engineer** - [WindLabs](https://github.com/kt-aivle-9th-ai-tk8/bigproject-team22)
+  - Final Project: Worked as **Back-end, Infra, AI/Data Engineer** - [WindLabs](https://github.com/kt-aivle-9th-ai-tk8/bigproject-team22) &emsp;&emsp; ▶︎  🏆 최우수상
 - **Back-End Engineer** Track — [Kakao Tech Campus](https://www.kakaotechcampus.com/) (3rd Gen)
-  - Final Project: IceBreaker[(BE Github](https://github.com/kakao-tech-campus-3rd-step3/Team6_BE)
+  - Final Project: Worked ad Back-end, Infra Engineer - IceBreaker[(BE Github)](https://github.com/kakao-tech-campus-3rd-step3/Team6_BE) &emsp; ▶︎  🏆 아이디어톤 최우수상
 
 ## 💼 Experience
 - Undergraduate Intern — High Performance Computing Lab. at **Kyungpook National University** (KNU, 경북대학교)
@@ -26,40 +26,68 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
-<strong>Also work with</strong>
-
-<table>
+<table align="left">
+  <tr>
+    <td colspan="2"><strong>Working Knowledge</strong></td>
+  </tr>
   <tr>
     <td valign="top">
-      <strong>Languages</strong><br/>
+      <strong>Languages</strong><br />
       <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
       <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C" />
       <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
     </td>
     <td valign="top">
-      <strong>Data</strong><br/>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <strong>Data</strong><br />
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
       <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="JPA" />
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <strong>Frameworks</strong><br/>
+      <strong>Frameworks</strong><br />
       <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+    </td>
+    <td valign="top">
+      <strong>Cloud / Infra</strong><br />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS" />
+      <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Cloud" />
+      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+      <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white" alt="VMware" />
+      <img src="https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square" alt="Hyper-V" />
+    </td>
+  </tr>
+</table>
+<img align="left" width="1" height="1" src="./spacer.svg" alt="" />
+<table align="left">
+  <tr>
+    <td colspan="2"><strong>Also work with</strong></td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>Languages</strong><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    </td>
+    <td valign="top">
+      <strong>Data</strong><br/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>Frameworks</strong><br/>
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
     </td>
     <td valign="top">
       <strong>Cloud / Infra</strong><br/>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS" />
-      <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square" alt="Oracle Cloud" />
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-      <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white" alt="VMware" />
-      <img src="https://img.shields.io/badge/Hyper--V-0078D6?style=flat-square" alt="Hyper-V" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
     </td>
   </tr>
 </table>
+<br clear="both" />
+
+
+
 
 <strong>Tools · AI · Learning</strong>
 
@@ -76,17 +104,22 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <strong>AI</strong><br/>
+    <td valign="top" width="50%">
+      <strong>AI Chat</strong><br/>
+      <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
       <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude" />
-      <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+      <img src="https://img.shields.io/badge/Gemini-6E6A86?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
     </td>
-    <td valign="top">
+    <td valign="top" width="50%">
+      <strong>Agentic Workflows</strong><br/>
+      <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+      <img src="https://img.shields.io/badge/Codex-2B3137?style=flat-square" alt="Codex" />
+      <img src="https://img.shields.io/badge/Grok%20Bot-000000?style=flat-square&logo=x&logoColor=white" alt="Grok Bot" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
       <strong>Learning</strong> 📖<br/>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS" />
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-      <img src="https://img.shields.io/badge/AWS%20CodePipeline%20(CI%2FCD)-FF9900?style=flat-square" alt="AWS CodePipeline" />
     </td>
   </tr>
 </table>
