@@ -10,7 +10,7 @@
   - Final Project: Worked ad Back-end, Infra Engineer - IceBreaker[(BE Github)](https://github.com/kakao-tech-campus-3rd-step3/Team6_BE) &emsp; ▶︎  🏆 아이디어톤 최우수상
 
 ## 💼 Experience
-- Undergraduate Intern — High Performance Computing Lab. at **Kyungpook National University** (KNU, 경북대학교)
+- Undergraduate Intern — High Performance Computing Lab. at **Kyungpook National University** (KNU, 경북대학교) ([→ Research](#-research))
 
 ## 🛠 Tech Stack
 
