@@ -1,6 +1,6 @@
 # Hello, I'm Minwoo Kim 👋
 
-> ### CS 전공 학부생이자, 다양한 기술을 활용하는 인프라 개발자를 지향합니다.
+> ### CS 전공을 기반으로, 다양한 기술을 활용하는 인프라 개발자를 지향합니다.
 
 ## 🌱 Education
 - **CSE** at **Kyungpook National University** (KNU, 경북대학교)
